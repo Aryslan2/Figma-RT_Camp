@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" id="theme">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" id="theme">
     <title>RT Camp</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
                         <div class="container">
                             <div class="header-top__inner">
                                 <div class="logo">
-                                    <a href="#"><img src="images/Header_logo/def-logo.svg" alt="logo"></a>
+                                    <a href="#"><img id="logo-img" src="images/Header_logo/def-logo.svg" alt="logo"></a>
                                 </div>
                                 <nav class="menu">
                                     <ul class="menu__list">
@@ -26,7 +26,7 @@
                                         <li class="menu__list-item"><a href="#" class="menu__list-link">Features</a></li>
                                         <li class="menu__list-item"><a href="#" class="menu__list-link">About Us</a></li>
                                         <li class="menu__list-item"><a href="#" class="menu__list-link">Contact</a></li>
-                                        <li class="menu__list-item menu__list-item-customize"><a href="#" class="menu__list-link">Dark Mode</a></li>
+                                        <li class="menu__list-item menu__list-item-customize"><a id="mode" onclick="switchMode()" href="#" class="menu__list-link">Dark Mode</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -53,8 +53,8 @@
                                     <a href="#"><div class="header-links__cards-card"><img src="images/google.png" alt="google"></div></a>
                                     <a href="#"><div class="header-links__cards-card"><img src="images/netflix.png" alt="netflix"></div></a>
                                     <a href="#"><div class="header-links__cards-card"><img src="images/tesla.png" alt="tesla"></div></a>
-                                    <a href="#"><div class="header-links__cards-card"><img src="images/amazon.png" alt="amazon"></div></a>
-                                    <a href="#"><div class="header-links__cards-card"><img src="images/disneypng.png" alt="disneypng"></div></a>
+                                    <a href="#"><div class="header-links__cards-card"><img id="amazon" src="images/amazon.png" alt="amazon"></div></a>
+                                    <a href="#"><div class="header-links__cards-card"><img id="disney" src="images/disneypng.png" alt="disneypng"></div></a>
                                     <a href="#"><div class="header-links__cards-card"><img src="images/paypal.png" alt="paypal"></div></a>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                     <dir class="footer-about">
                         <p class="footer-title">About</p>
                         <p class="footer-text">providing the best lead generation <br>solutions in accordance with your <br>needs</p>
-                        <a href=""><img src="images/VIP-Logo 1.png" alt="gold agency partner"></a>
+                        <a href=""><img id="vip-logo" src="images/VIP-Logo 1.png" alt="gold agency partner"></a>
                     </dir>
                     <div class="footer-company">
                         <p class="footer-title">Company</p>
@@ -255,12 +255,12 @@
                         <p class="footer-text">Subscribe to our newsletter and get a <br>few email updates every month.</p>
                         <div class="footer-newsletter-email">
                             <input class="footer-input-email" type="text" placeholder="Email">
-                            <button class="footer-news-button"><img src="images/footer-button.png" alt=""></button>
+                            <button class="footer-news-button"><img id="fly" src="images/footer-button.png" alt=""></button>
                         </div>
                         <div class="footer-links">
-                            <a href="#"><img src="images/facebook.png" alt=""></a>
-                            <a href="#"><img src="images/github.png" alt=""></a>
-                            <a href="#"><img src="images/linkedin.png" alt=""></a>
+                            <a href="#"><img id="facebook" src="images/facebook.png" alt=""></a>
+                            <a href="#"><img id="github" src="images/github.png" alt=""></a>
+                            <a href="#"><img id="linkedin" src="images/linkedin.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -271,5 +271,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/dark_theme.js"></script>
 </body>
 </html>

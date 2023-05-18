@@ -1,15 +1,13 @@
 .header {
-    transition: 0.2s;
     padding-bottom: 100px;
-    background: #FFFFFF;
+    background: #17191C;
 
-    .header-top {
-        transition: 1s;
+    .header-top { 
         width: auto;
         height: 100px;
-        background: #FFFFFF;
+        background: #22252A;
+        transition: 1s;
         border-radius: 0 0 15px 15px;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 
         .header-top__inner {
             height: 100px;
@@ -33,7 +31,7 @@
             font-size: 20px;
             line-height: 27px;
             text-align: center;
-            color: #000000;
+            color: #F2F2F2;
         } .menu__list-item:hover {
             border-bottom: 3px solid #1A66FF;
         }
@@ -48,13 +46,12 @@
             width: 150px;
             height: 60px;
             background: #FFFFFF;
-            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
             border-radius: 15px;
         }
     }
 
     .header-content {
-        transition: 0.2s;
+        background: #17191C;
         .header-content__inner {
             display: flex;
             flex-direction: column;
@@ -68,7 +65,7 @@
                 font-size: 64px;
                 line-height: 87px;
                 text-align: center;
-                color: #000000;
+                color: #F2F2F2;
             }
 
             .header-content-subtitle-first {
@@ -81,7 +78,7 @@
                 font-size: 24px;
                 line-height: 40px;
                 -align: center;
-                color: #000000;
+                color: #F2F2F2;
             }
 
             .header-content__buttons {
@@ -94,35 +91,34 @@
                     width: 191px;
                     height: 63px;
                     padding: 15px 30px;
-                    background: #000000;
+                    background: #F2F2F2;
                     border-radius: 15px;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 33px;
                     -align: center;
-                    color: #FFFFFF;
-                    border: #000000;
+                    color: #17191C;
+                    border: #f2f2f2;
                     transition: 0.3s;
                 } .header-content__buttons-1:hover {
                     cursor: pointer;
-                    background: rgba(0, 0, 0, 0.8);
-                    border: rgba(0, 0, 0, 0.8);
+                    background: rgb(108, 108, 108);
                 }
 
                 .header-content__buttons-2 {
                     width: 185px;
                     height: 63px;
                     padding: 15px 30px;
-                    background-color: #FFFFFF;
-                    border: 3px solid #000000;
+                    background: #22252A;
+                    border: 3px solid #F2F2F2;
                     border-radius: 15px;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 33px;
                     text-align: center;
-                    color: #000000;
+                    color: #F2F2F2;
                     transition: 0.3s;
                 } .header-content__buttons-2:hover {
                     cursor: pointer;
@@ -133,7 +129,7 @@
     }
 
     .header-links {
-        transition: 0.2s;
+        background: #17191C;
         .header-links__inner {
             padding-top: 80px;
             display: flex;
@@ -148,7 +144,7 @@
             font-size: 20px;
             line-height: 27px;
             text-align: center;
-            color: #000000;
+            color: #F2F2F2;
         }
 
         .header-links__cards {
@@ -165,9 +161,8 @@
                 align-items: center;
                 width: 192px;
                 height: 120px;
-                background: #FFFFFF;
+                background: #22252A;
                 border-radius: 20px;
-                filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.25));
                 transition: 0.3s;
             } .header-links__cards-card:hover {
                 background: rgba(0, 0, 0, 0.1);
