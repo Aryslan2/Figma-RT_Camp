@@ -2,3 +2,116 @@
 @import url(dark-main.css);
 @import url(dark-footer.css);
 @import url(dark-reset.css);
+@media (max-width: 1300px) {
+  .header-links__cards {
+    gap: 10px !important;
+  }
+}
+@media (max-width: 1205px) {
+  .header-links__cards {
+    gap: 5px !important;
+  }
+}
+@media (max-width: 1185px) {
+  .logo-img {
+    width: 40px !important;
+    height: 30px !important;
+  }
+  .header-links__cards {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    gap: 10px !important;
+  }
+  .header-content-title {
+    font-size: 50px !important;
+  }
+  .header-content-subtitle {
+    font-size: 16px !important;
+  }
+  .header-links-title {
+    font-size: 15px !important;
+  }
+  .menu__list-link {
+    font-size: 15px !important;
+  }
+  .basic__title {
+    font-size: 40px !important;
+  }
+  .how-we-work__cards {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    gap: 65px !important;
+  }
+  .features-we-provide__cards {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .our-works__cards {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .scards {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    gap: 65px !important;
+  }
+  .contact-us__boxes {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .our-team__info-img {
+    width: 650px;
+    height: 300px;
+  }
+  .footer__inner {
+    gap: 40px !important;
+  }
+  .footer-title {
+    font-size: 15px !important;
+  }
+  .footer-text {
+    font-size: 13px !important;
+  }
+  .footer-menu-link {
+    font-size: 13px !important;
+  }
+  .footer-input-email {
+    height: 25px !important;
+    width: 200px !important;
+    font-size: 15px !important;
+  }
+  .footer-news-button {
+    height: 25px !important;
+  }
+  .fly {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .footer-inc {
+    font-size: 11px !important;
+  }
+}
